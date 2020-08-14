@@ -1,0 +1,49 @@
+.header {
+  background-color: #131921;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+h4 {
+  margin-left: 10px;
+  margin-right: 20px;
+  color: white;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionFav {
+  display: flex;
+}
+
+.header__favCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}

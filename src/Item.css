@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  justify-content: flex-end;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card > img {
+  width: 80%;
+  max-height: 140px;
+  object-fit: contain;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.card__info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.card > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.card__info > p {
+  margin-top: 10px;
+  font-size: 16px;
+}

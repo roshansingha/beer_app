@@ -1,0 +1,20 @@
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: 1px solid#ccc;
+  outline: none;
+  width: 60%;
+  font-size: 15px;
+  margin-left: auto;
+}
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+  margin-right: auto;
+}
+.header__search {
+  display: flex;
+  flex: 1;
+  margin-top: 10px;
+}
