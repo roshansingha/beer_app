@@ -1,6 +1,7 @@
 import React from "react";
 import "./Item.css";
 import { useStateValue } from "./StateProvider";
+import TextTruncate from "react-text-truncate";
 
 function Item({ item }) {
   const [{}, dispatch] = useStateValue();
@@ -20,7 +21,12 @@ function Item({ item }) {
     <div className="card">
       <div className="card__info">
         <h3>{item.name}</h3>
-        <p> {item.description}</p>
+        <TextTruncate
+          line={3}
+          element="p"
+          truncateText="..."
+          text={item.description}
+        />
       </div>
       <img src={item.image_url} alt="" />
       <button onClick={addToFavorite}>Add to Favorites</button>
